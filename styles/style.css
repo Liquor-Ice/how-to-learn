@@ -71,12 +71,12 @@
 }
 
 .content {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .description {
-  display: flex;
-  justify-content: center;
   padding: 100px 0;
 }
 
