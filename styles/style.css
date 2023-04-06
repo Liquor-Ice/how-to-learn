@@ -14,6 +14,17 @@
   height: 32px;
 }
 
+.logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -22,6 +33,7 @@
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
+  position: relative;
 }
 
 .header__title {
@@ -31,13 +43,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-}
-
-.header__logo {
-  background-image: url(../images/logo_place_header.svg);
-  position: absolute;
-  top: 30px;
-  left: 64px;
 }
 
 .header__subtitle {
@@ -264,10 +269,6 @@
 .footer__column_conent_copyright {
   flex-basis: 711px;
   justify-content: space-between;
-}
-
-.footer__logo {
-  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
