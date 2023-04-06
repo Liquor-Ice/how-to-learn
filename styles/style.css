@@ -76,10 +76,6 @@
   right: 0;
 }
 
-.content {
-
-}
-
 .description {
   padding: 100px 0;
   display: flex;
@@ -169,7 +165,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .table__text {
