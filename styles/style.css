@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -34,6 +43,7 @@
   align-items: center;
   background-color: #f2f2f2;
   position: relative;
+  overflow: hidden;
 }
 
 .header__title {
@@ -81,6 +91,10 @@
   position: absolute;
   top: 64px;
   right: 0;
+}
+
+.header__rotation {
+  animation: rotation 20s linear infinite;
 }
 
 .description {
@@ -267,6 +281,10 @@
   right: -210px;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
+}
+
+.kaufman__rotation {
+  animation: rotation 20s linear infinite;
 }
 
 .footer {
