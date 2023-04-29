@@ -1,4 +1,7 @@
 .cards {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   width: 920px;
   display: grid;
   column-gap: 100px;

@@ -2,6 +2,7 @@
   padding-top: 100px;
   background: #f2f2f2 url('../../images/feynman.png') no-repeat left bottom/867px 637px;
   min-height: 890px;
+  box-sizing: border-box;
   position: relative;
   display: flex;
   flex-direction: column;
